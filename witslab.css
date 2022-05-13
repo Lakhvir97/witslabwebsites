@@ -1,0 +1,421 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.Container{
+    display: flex;
+    padding: 10px;
+  
+}
+.Witslablogo{
+    margin-top: 10px;
+    width:190px;
+ margin-left: 90px;
+}
+
+
+
+.dropdown{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    margin-left: 320px;
+    opacity: 0.9;
+    color: rgb(109, 107, 107);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+
+}
+.display{
+    background-color: white;
+    position: absolute;
+    display: none;
+    top:80px;
+    box-shadow: 4px 5px 5px 4px lightgray;
+    width: 180px;}
+
+.dropdown:hover .display{
+    display: block;
+}
+.content{
+    padding: 15px 16px;
+    font-size: 15px;
+    
+}
+.content:hover{
+    background-color: lightgrey;
+
+}
+
+
+
+.Career{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    margin-left: 80px;
+    opacity: 0.9;
+    color: rgb(109, 107, 107);
+    cursor: pointer;
+
+}
+.Career:hover{
+        color: #3742bb;
+    
+}
+
+.Company{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    margin-left: 70px;
+    opacity: 0.9;
+    color: rgb(109, 107, 107);
+    cursor: pointer;
+
+}
+.Company:hover{
+    color: #3742bb;
+}
+.Button{
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: #2a43a6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    cursor: pointer;
+}
+ .Button:hover{
+   background-color: rgb(41, 41, 119);
+ }
+
+ #insight:hover{
+     color: black;
+ }
+ .Services1{
+    background-color: white;
+    position: absolute;
+    display: none;
+    top:80px;
+    box-shadow: 4px 5px 5px 4px lightgray;
+    width: 180px;
+ }
+ .Services{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    margin-left: 80px;
+    opacity: 0.9;
+    color: rgb(109, 107, 107);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+
+}
+.Custom{
+    padding: 15px 16px;
+    font-size: 15px;
+ }
+ .Custom:hover{
+    background-color: lightgrey;
+ }
+
+ .Services:hover .Services1{
+    display: block;
+}
+#Services:hover{
+color: black ;
+}
+.Essence{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    margin-left: 80px;
+    opacity: 0.9;
+    color: rgb(109, 107, 107);
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+.Essence1{
+    background-color: white;
+    position: absolute;
+    display: none;
+    top:80px;
+    box-shadow: 4px 5px 5px 4px lightgray;
+    width: 180px;
+}
+#Essence:hover {
+    color: black;
+
+}
+.Agile{
+    padding: 15px 16px;
+    font-size: 15px;
+}
+.Agile:hover{
+    background-color: lightgrey;
+}
+.Essence:hover .Essence1{
+    display: block;
+}
+.Form{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #ebedee;
+    margin-top: 60px;
+    height: 480px;
+}
+#Technology{
+    font-weight: bold;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 120px;
+margin-top: 40PX;
+color: #272727;
+}
+#Software{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-top: 5px;
+    color: #272727;
+
+}
+#Market{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 120px;
+    margin-top: 5px;
+    color: #272727;
+}
+#With{
+    font-weight: bold;
+font: 16px;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 120px;
+margin-top: 10px;
+color: #272727;
+}
+#With{
+    font-weight: bold;
+    font: 16px;
+    margin-left: 120px;
+    margin-top: 20px;
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+}
+#The{
+    font-weight: bold;
+    font: 16px;
+    margin-left: 120px;
+    margin-top: 10px;
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+}
+#Blueprint{
+    font-weight: bold;
+    font: 16px;
+    margin-left: 120px;
+    margin-top: 10px;
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+}
+#Product{
+    font-weight: bold;
+    font: 16px;
+    margin-left: 120px;
+    margin-top: 10px;
+    color: #353535;
+    font-family: Arial, Helvetica, sans-serif; 
+    opacity: 0.9;
+}
+#Button{
+    margin-left: 120px;
+    margin-top: 30px;
+    height: 55px;
+    width: 189px;
+    border-radius: 28px;
+    background-color: #2d4195;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .7px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    
+}
+#Button:hover{
+    background-color: rgb(41, 41, 119);
+}
+.image{
+float: right;
+height: 480px;    
+}
+#Innovative{
+    color: #272727;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 50px;
+
+}
+.Innvative1{
+    text-align: center;
+}
+.Choose{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Custom3{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    margin-top: 40px;
+    }
+.App{
+    border-right: 1px solid #272727;
+    border-bottom: 1px solid #3a3737;
+    margin-left: 100px;
+   
+}
+.App1{
+    border-right: 1px solid #272727;
+    border-bottom: 1px solid #3a3737;
+
+
+}
+.Phone{
+
+}
+
+.CustomApp{
+    color: #2d4195;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+.Development{
+    color: #2d4195;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+.create{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+  
+
+}
+.application{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+
+}
+.Digital{
+    color: #2d4195;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+
+}
+.laptop{
+margin-left: 20px;
+}
+.App1{
+    border-right: 1px solid #272727;
+    border-bottom: 1px solid #3a3737;
+    margin-left: 100px;
+}
+.drive{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+  
+}
+.technology{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+  
+}
+.Enterprise{
+    color: #2d4195;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.Hand{
+    margin-left: 20px;
+}
+.Disk{
+    border-right: 1px solid #272727;
+    border-bottom: 1px solid #3a3737;
+    margin-left: 100px;
+}
+.Experience{
+    margin-top: 40px;
+    
+}
+.Experience1{
+    color: #2d4195;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+.Mobile1{
+    margin-bottom: 20px;
+}
+#Design{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+#Also{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 30px;
+}

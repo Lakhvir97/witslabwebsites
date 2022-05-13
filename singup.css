@@ -1,0 +1,251 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+.G
+{
+      color: rgb(84, 84, 227);
+      font-size: 40px;
+      
+
+}
+.O
+{
+      color: rgb(198, 51, 51);
+      font-size: 25px;
+      padding-top: 15px;
+
+}
+.O2
+{
+      color: rgb(207, 207, 56);
+      font-size: 25px;
+padding-top: 15px;
+}
+.g2
+{
+       color: rgb(64, 64, 205);
+       font-size: 35px;
+       padding-top: 5px;
+}
+.L
+{
+       color: rgb(43, 150, 43);
+       font-size: 33px;
+       padding-top: 2px;
+}
+.E
+{
+       color: rgb(198, 51, 51);
+       font-size: 33px;
+       padding-top: 4px;
+}
+.DIV
+{
+    border: 1px solid rgb(212, 204, 204);
+    background-color:#ebedee;
+    border-right: ;
+    height: 60px;
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.Sign
+
+{
+ margin-left: 1250px;
+ height: 30px;
+ width: 80px;
+ margin-top: 13px;
+ background-color:rgb(69, 138, 242);
+ border: none;
+ color: white;
+ border-radius: 3px;
+ 
+
+}
+.Sign:hover
+{
+    background-color: rgb(46, 46, 210);
+}
+.Create
+{
+    font-size: 40px;
+     text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Form
+{
+    background-color: #ebedee;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 340px;
+    height: 520px;
+    margin-left: 1115px;
+    padding-left: 25px; 
+    padding-top: 25px;
+    border: none;
+    
+}
+#Last
+{
+    margin-left: 20px;
+
+}
+.First{
+    width: 150px;
+    height: 25px;
+    border: 0.5px solid lightgrey;  
+padding-left: 7px;
+
+}
+.First:focus{
+    outline: none;
+    border: 1px solid blue;
+    caret-color: blue;
+}
+.Last{
+    width: 140px;
+    height: 25px;
+    border: 0.5px solid lightgrey;
+    padding-left: 7px;
+}
+.Last:focus{
+    outline: none;
+    border: 1px solid blue;
+    caret-color: blue;
+}
+.Username
+{
+    width: 310px;
+    height: 25px;
+    border: 0.5px solid lightgrey;
+    place-content: right;
+    
+}
+
+.Username::placeholder{
+    float: right;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+.Username:focus{
+    outline: none;
+    border: 1px solid blue;
+    caret-color: blue;
+}
+.Month{
+    width: 120px;
+    height: 25px;
+    border: 0.5px solid lightgrey;
+}
+.Month:focus{
+    outline: none;
+    border: 1px solid blue;
+    caret-color: blue;
+}
+
+.Year{
+    width: 125px;
+    height: 27px;
+    border: 0.5px solid lightgrey;
+}
+.Year:focus{
+    outline: none;
+    border: 1px solid blue;
+    caret-color: blue;
+}
+
+.Date{
+    width: 55px;
+    height: 25px;
+    border: 0.5px solid lightgrey;
+}
+.Date:focus{
+    outline: none;
+    border: 1px solid blue;
+    caret-color: blue;
+}
+
+.Gender{
+    width: 310px;
+    height: 30px;
+    border: 0.5px solid lightgrey;
+}
+.Gender:focus{
+    outline: none;
+    border: 1px solid blue;
+    caret-color: blue;
+}
+
+.Mobile{
+    width: 305px;
+    height: 25px;
+    border: 0.5px solid lightgrey;
+
+}
+.Mobile:focus{
+    outline: none;
+    border: 1px solid blue;
+    caret-color: blue;
+}
+.currentEmail{
+    text-decoration: none;
+}
+.Name{
+    margin-bottom: 1.5px;
+    font-weight: bold;
+}
+.left{
+    position: absolute;
+    top: 200px;
+}
+#upper{
+   margin-left: 400px;
+    opacity: 0.6;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#single{
+    margin-left: 300px;
+    opacity: 0.6;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.Image{
+    margin-top: 20px;
+    width: 75   0px;
+    height: 200px;
+    margin-left: 260px;
+}
+#Make{
+    margin-left: 450px;
+    font-size: 30px;
+    opacity: 0.6;
+}
+#set{
+    font-size: 20px;
+    margin-left: 350px;
+    margin-top: 20px;
+    opacity: 0.6;
+}
+.Submit{
+    width: 80px;
+    height: 25px;
+    margin-left: 110px;
+    background-color:rgb(69, 138, 242);
+    border: none;
+    border-radius: 3px;
+    color: #ebedee;
+}
+.Submit:hover{
+    background-color: rgb(46, 46, 210);
+}
